@@ -57,23 +57,23 @@ namespace BookTest
         {
             int NytSidetal = 14;
 
-            TestBook.sidetal = NytSidetal;
+            TestBook.Sidetal = NytSidetal;
 
-            Assert.AreEqual(NytSidetal, TestBook.sidetal);
+            Assert.AreEqual(NytSidetal, TestBook.Sidetal);
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void TestSidetalUnder4()
         {
-            TestBook.sidetal = 2;
+            TestBook.Sidetal = 2;
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void TestSidetalOver1000()
         {
-            TestBook.sidetal = 1001;
+            TestBook.Sidetal = 1001;
         }
 
 

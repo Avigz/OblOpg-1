@@ -53,7 +53,7 @@ namespace OBL_Opgave
             }
         }
 
-        public int sidetal
+        public int Sidetal
         {
             get => _sidetal;
             set
@@ -81,5 +81,9 @@ namespace OBL_Opgave
             set => _titel = value;
         }
 
+        public override string ToString()
+        {
+            return "" + Titel + " " + Forfatter + " " + Sidetal + " " + ISBN13;
+        }
     }
 }

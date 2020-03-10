@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBL Opgave", "OBL Opgave\OBL Opgave.csproj", "{BF2E17E3-CC04-4DDF-9477-E8A1A7941612}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OBL Opgave", "OBL Opgave\OBL Opgave.csproj", "{BF2E17E3-CC04-4DDF-9477-E8A1A7941612}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookTest", "BookTest\BookTest.csproj", "{8558CDFF-81F0-4FD4-A1A1-D846D8167240}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookTest", "BookTest\BookTest.csproj", "{8558CDFF-81F0-4FD4-A1A1-D846D8167240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiBook", "RestApiBook\RestApiBook.csproj", "{D9F553C8-8092-447F-896B-6B0997BC5735}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8558CDFF-81F0-4FD4-A1A1-D846D8167240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8558CDFF-81F0-4FD4-A1A1-D846D8167240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8558CDFF-81F0-4FD4-A1A1-D846D8167240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F553C8-8092-447F-896B-6B0997BC5735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F553C8-8092-447F-896B-6B0997BC5735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F553C8-8092-447F-896B-6B0997BC5735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F553C8-8092-447F-896B-6B0997BC5735}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
